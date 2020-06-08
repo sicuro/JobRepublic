@@ -1,0 +1,346 @@
+/*Globals*/
+
+@import "globals/border-radius/border-radius.scss";
+@import "globals/border-widths/border-widths.scss";
+@import "globals/colors/colors.scss";
+@import "globals/font-sizes/font-sizes.scss";
+@import "globals/font-wheighs/font-wheighs.scss";
+@import "globals/shadow-levels/shadow-level.scss";
+@import "globals/spacing-inline/spacing-inline.scss";
+@import "globals/spacing-inset/spacing-inset.scss";
+@import "globals/spacing-squish/spacing-squish.scss";
+@import "globals/spacing-stack/spacing-stack.scss";
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Regular.woff2') format('woff2'),
+        url('../fonts/Akrobat-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Bold.woff2') format('woff2'),
+        url('../fonts/Akrobat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Akrobat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Light.woff2') format('woff2'),
+        url('../fonts/Akrobat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+	 font-family: 'Akrobat';
+}
+
+.secundary-button {
+	border: solid $border-width-hairline $primary-color-01;
+	background:$primary-color-02;
+	color:$securandary-color-01;
+
+	&:hover {
+		background: $primary-color-01;
+		color: $primary-color-02;
+		cursor: pointer;
+	}
+}
+
+.terciary-button {
+	border: solid $border-width-hairline $primary-color-02;
+	background:$primary-color-01;
+	color:$primary-color-02;
+
+	&:hover {
+		background: $primary-color-02;
+		color: $primary-color-01;
+		cursor: pointer;
+	}
+}
+button {
+	border: solid $border-width-hairline $primary-color-02;
+	padding:$spacing-squish-xs;
+	transition: background 0.2s ease-in-out;
+	background:$securandary-color-01;
+	min-width: 180px;
+
+
+
+	&:hover {
+		background: $primary-color-02;
+		color: $primary-color-01;
+		cursor: pointer;
+
+	}
+
+
+}
+.bgheader {
+	background:#ffffff;
+	box-shadow: $shadow--level2;
+}
+header {
+	padding-top: $spacing-inset-sm;
+	padding-bottom: $spacing-inset-sm;
+    width: 100%;	
+    position: fixed;
+    z-index: 1;
+	transition: background 0.2s ease-in-out;
+ 
+
+	.menu {
+
+		padding-top:$spacing-inset-nano;
+
+		ul {
+			list-style-type: none;
+			margin: $spacing-inset-none;
+			padding: $spacing-inset-none;
+
+			li {
+				display: inline;
+				padding-left: $spacing-inline-md;
+				font-size: $font-size-xs;
+			}
+		}
+		.apply-button {
+			border: solid $border-width-hairline $primary-color-02;
+			padding:$spacing-squish-xs;
+			margin-left:$spacing-inline-md;
+			transition: background 0.2s ease-in-out;
+			min-width: 180px !important;
+
+			&:hover {
+				background: $primary-color-02;
+				color: $primary-color-01;
+				cursor: pointer;
+
+			}
+		}
+	}
+}
+
+.initial {
+	
+&:before {
+    content: '';
+    position: absolute;
+    height: 75%;
+    width: 50%;
+    z-index: -1;
+    left: 50%;
+    background: $primary-color-01;
+}
+
+	.initial-left {
+		h1 {
+			font-size:$font-size-display;
+			margin-top: $spacing-stack-xxxl;
+			margin-bottom: $spacing-stack-xxs;
+		}
+		p {
+			font-size: $font-size-sm;
+			margin-bottom: $spacing-stack-xxs;
+		}
+
+		button {
+			margin-bottom: $spacing-stack-xxs;
+		}
+
+		.dots {
+			background: url(../images/dots.svg);
+			width: 400px;
+			height: 250px;
+		}
+	}
+
+	.initial-right {
+
+		margin-top: $spacing-stack-xxxl;
+
+
+
+		.video-home {
+			background: url(../images/foto-home.jpg) no-repeat center center ; 
+	
+		  	padding: $spacing-inset-lg;	
+		  	color: $securandary-color-01;
+		  	box-shadow: $shadow--level2;
+		  	
+
+			h2 {
+				font-size: $font-size-x;
+				
+			}
+
+			.play-video {
+				margin-top: $spacing-stack-huge;
+				margin-bottom: $spacing-stack-huge;
+			}
+			.txt-video {
+				font-size: $font-size-md;
+				font-weight: $font-weight-regular;
+				border-bottom: solid $border-width-thin $primary-color-01;
+			}
+
+		}
+
+	}
+
+}
+
+.pillars {
+
+	margin-top: $spacing-stack-sm;
+
+	.card-pillars {
+		padding:$spacing-inset-md;
+		box-shadow: $shadow--level2;
+		background:$securandary-color-01;
+
+		h2 {
+			font-size: $font-size-lg;
+			margin-bottom: $spacing-stack-xxs;
+		}
+		p {
+			font-size: $spacing-inset-xs;
+			margin-bottom: $spacing-stack-xs;
+		}
+		.learn-more-pillars {
+			color: $primary-color-01;
+		}
+	}
+	
+}
+
+.courses {
+	background:$primary-color-02;
+	padding-top:$spacing-stack-huge;
+	padding-bottom:$spacing-stack-huge;
+	margin-top: -$spacing-stack-xxl;
+
+	.courses-info {
+		.sub-title {
+			color: $primary-color-01;
+			font-size: $font-size-xs;
+			font-weight: $font-weight-semi-bold;
+			margin-bottom: $spacing-stack-xxs;
+		}
+		h2 {
+			font-size:$font-size-xl;
+			color: $primary-color-01;
+			font-weight: $font-weight-semi-bold;
+			margin-top: $spacing-stack-xxxs;
+		}
+		p {
+			font-size: $font-size-xs;
+			color:$securandary-color-01;
+			margin-bottom: $spacing-stack-sm;
+		}
+	}
+}
+
+.apply-home {
+
+	margin-top: -$spacing-stack-xxl;
+
+	&:before {
+    content: '';
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background: url(../images/dots-2.svg);
+    margin-top: $spacing-stack-huge;
+	}
+
+	.apply-home-cards {
+		padding:$spacing-inset-md;
+		box-shadow: $shadow--level2;
+		background:$primary-color-01;
+		
+		h2 {
+			margin-bottom: $spacing-stack-xs;
+		}
+		p {
+			margin-bottom: $spacing-stack-xs;
+		}
+	}
+
+}
+
+.dufry-home {
+
+	margin-top: $spacing-stack-xs;
+
+	.dufry-left {
+		 .dufry-img {
+	 	    margin-top: -210px;	
+		 }
+		.block-dufry {
+			padding:$spacing-inset-md;
+			box-shadow: $shadow--level2;
+			background:$securandary-color-01;
+			img {
+				margin-bottom: $spacing-stack-xxs;
+			}
+		}
+	}
+}
+
+footer {
+
+	box-shadow: $shadow--level5;
+	color: $securandary-color-01;
+	padding-top:$spacing-stack-lg;
+	padding-bottom:$spacing-stack-lg;
+	margin-top:$spacing-stack-xxl;
+	font-size: $font-size-xs;
+	background:$primary-color-02;
+
+	.menu-footer {
+
+		ul {
+			list-style-type: none;
+			margin: $spacing-inset-none;
+			padding: $spacing-inset-none;
+
+			li {
+				display: inline;
+				padding-right: $spacing-inline-md;
+				font-size: $font-size-xs;
+			}
+		}
+
+		h2 {
+			font-size: $font-size-xs;
+			padding-top:$spacing-stack-xxl;
+		}
+	}
+
+	.newsletter {
+		input {
+			border: $border-width-none;
+			border-radius:$border-width-none;
+
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAA4B,SAAS;AACT,gBAAgB;AACZ,UAAU;AACV,SAAS;AACT,SAAS",
+"sources": ["colors.scss"],
+"names": [],
+"file": "colors.css"
+}

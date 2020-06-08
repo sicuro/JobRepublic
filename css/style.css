@@ -1,0 +1,229 @@
+/*Globals*/
+/* Border Radius */
+/* Border Widths*/
+/*verde*/
+/*cinza escuro*/
+/*branco*/
+/*cinza*/
+/*preto*/
+/* Font size */
+/*Font Weights */
+/* Shadow Levels */
+/* Spacing Inline */
+/* Spacing Inset */
+/* Spacing Squish */
+/* Spacing Stack */
+@font-face {
+  font-family: 'Akrobat';
+  src: url("../fonts/Akrobat-Regular.woff2") format("woff2"), url("../fonts/Akrobat-Regular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Akrobat';
+  src: url("../fonts/Akrobat-Bold.woff2") format("woff2"), url("../fonts/Akrobat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Akrobat';
+  src: url("../fonts/Akrobat-SemiBold.woff2") format("woff2"), url("../fonts/Akrobat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Akrobat';
+  src: url("../fonts/Akrobat-Light.woff2") format("woff2"), url("../fonts/Akrobat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+body {
+  font-family: 'Akrobat'; }
+
+.secundary-button {
+  border: solid 1px #CDDB00;
+  background: #27272A;
+  color: #FFFFFF; }
+  .secundary-button:hover {
+    background: #CDDB00;
+    color: #27272A;
+    cursor: pointer; }
+
+.terciary-button {
+  border: solid 1px #27272A;
+  background: #CDDB00;
+  color: #27272A; }
+  .terciary-button:hover {
+    background: #27272A;
+    color: #CDDB00;
+    cursor: pointer; }
+
+button {
+  border: solid 1px #27272A;
+  padding: 16px 24px;
+  transition: background 0.2s ease-in-out;
+  background: #FFFFFF;
+  min-width: 180px; }
+  button:hover {
+    background: #27272A;
+    color: #CDDB00;
+    cursor: pointer; }
+
+.bgheader {
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08); }
+
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  transition: background 0.2s ease-in-out; }
+  header .menu {
+    padding-top: 8px; }
+    header .menu ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px; }
+      header .menu ul li {
+        display: inline;
+        padding-left: 48px;
+        font-size: 16px; }
+    header .menu .apply-button {
+      border: solid 1px #27272A;
+      padding: 16px 24px;
+      margin-left: 48px;
+      transition: background 0.2s ease-in-out;
+      min-width: 180px !important; }
+      header .menu .apply-button:hover {
+        background: #27272A;
+        color: #CDDB00;
+        cursor: pointer; }
+
+.initial:before {
+  content: '';
+  position: absolute;
+  height: 75%;
+  width: 50%;
+  z-index: -1;
+  left: 50%;
+  background: #CDDB00; }
+.initial .initial-left h1 {
+  font-size: 80px;
+  margin-top: 120px;
+  margin-bottom: 24px; }
+.initial .initial-left p {
+  font-size: 20px;
+  margin-bottom: 24px; }
+.initial .initial-left button {
+  margin-bottom: 24px; }
+.initial .initial-left .dots {
+  background: url(../images/dots.svg);
+  width: 400px;
+  height: 250px; }
+.initial .initial-right {
+  margin-top: 120px; }
+  .initial .initial-right .video-home {
+    background: url(../images/foto-home.jpg) no-repeat center center;
+    padding: 40px;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08); }
+    .initial .initial-right .video-home h2 {
+      font-size: 40px; }
+    .initial .initial-right .video-home .play-video {
+      margin-top: 160px;
+      margin-bottom: 160px; }
+    .initial .initial-right .video-home .txt-video {
+      font-size: 24px;
+      font-weight: 300;
+      border-bottom: solid 2px #CDDB00; }
+
+.pillars {
+  margin-top: 40px; }
+  .pillars .card-pillars {
+    padding: 32px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    background: #FFFFFF; }
+    .pillars .card-pillars h2 {
+      font-size: 32px;
+      margin-bottom: 24px; }
+    .pillars .card-pillars p {
+      font-size: 16px;
+      margin-bottom: 32px; }
+    .pillars .card-pillars .learn-more-pillars {
+      color: #CDDB00; }
+
+.courses {
+  background: #27272A;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  margin-top: -80px; }
+  .courses .courses-info .sub-title {
+    color: #CDDB00;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px; }
+  .courses .courses-info h2 {
+    font-size: 48px;
+    color: #CDDB00;
+    font-weight: 700;
+    margin-top: 16px; }
+  .courses .courses-info p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 40px; }
+
+.apply-home {
+  margin-top: -80px; }
+  .apply-home:before {
+    content: '';
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background: url(../images/dots-2.svg);
+    margin-top: 160px; }
+  .apply-home .apply-home-cards {
+    padding: 32px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    background: #CDDB00; }
+    .apply-home .apply-home-cards h2 {
+      margin-bottom: 32px; }
+    .apply-home .apply-home-cards p {
+      margin-bottom: 32px; }
+
+.dufry-home {
+  margin-top: 32px; }
+  .dufry-home .dufry-left .dufry-img {
+    margin-top: -210px; }
+  .dufry-home .dufry-left .block-dufry {
+    padding: 32px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    background: #FFFFFF; }
+    .dufry-home .dufry-left .block-dufry img {
+      margin-bottom: 24px; }
+
+footer {
+  box-shadow: 0px -8px 16px rgba(0, 0, 0, 0.08);
+  color: #FFFFFF;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  margin-top: 80px;
+  font-size: 16px;
+  background: #27272A; }
+  footer .menu-footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    footer .menu-footer ul li {
+      display: inline;
+      padding-right: 48px;
+      font-size: 16px; }
+  footer .menu-footer h2 {
+    font-size: 16px;
+    padding-top: 80px; }
+  footer .newsletter input {
+    border: 0px;
+    border-radius: 0px; }
+
+/*# sourceMappingURL=style.css.map */
