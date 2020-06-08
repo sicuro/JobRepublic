@@ -156,6 +156,14 @@ header {
 			font-size:$font-size-display;
 			margin-top: $spacing-stack-xxxl;
 			margin-bottom: $spacing-stack-xxs;
+
+			&:after {
+			    content: '';
+			    border-bottom: solid 30px #CDDB00;
+			    margin-top: -45px;
+			    float: left;
+			    width: 240px;
+			}
 		}
 		p {
 			font-size: $font-size-sm;
