@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
   <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 0.394)">
-    <path id="Caminho_17" data-name="Caminho 17" d="M577.335,456.217l-10.177-6.234a2.489,2.489,0,0,0-3.789,2.123v12.466a2.488,2.488,0,0,0,3.789,2.121l10.177-6.232a2.488,2.488,0,0,0,0-4.244" transform="translate(-541.243 -429.965)" fill="#cddb00"/>
     <g id="Retângulo_22" data-name="Retângulo 22" transform="translate(0 -0.394)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
       <rect width="57" height="57" rx="28.5" stroke="none"/>
       <rect x="2.5" y="2.5" width="52" height="52" rx="26" fill="none"/>
     </g>
+    <path id="Caminho_3473" data-name="Caminho 3473" d="M22.126,19.648V37.454l15.39-8.522Z" transform="translate(1)" fill="#c5d200"/>
   </g>
 </svg>
