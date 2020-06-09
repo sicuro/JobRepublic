@@ -37,8 +37,24 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
+@font-face {
+  font-family: 'Akrobat';
+  src: url("../fonts/Akrobat-ExtraLight.woff2") format("woff2"), url("../fonts/Akrobat-ExtraLight.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
 body {
   font-family: 'Akrobat'; }
+
+h1 {
+  line-height: 70px; }
+
+h2 {
+  line-height: 60px; }
+
+p {
+  line-height: 24px;
+  font-weight: 100; }
 
 .secundary-button {
   border: solid 1px #CDDB00;
@@ -113,10 +129,12 @@ header {
   font-size: 80px;
   margin-top: 120px;
   margin-bottom: 24px; }
+  .initial .initial-left h1 .thin {
+    font-weight: 100; }
   .initial .initial-left h1:after {
     content: '';
     border-bottom: solid 30px #CDDB00;
-    margin-top: -45px;
+    margin-top: -30px;
     float: left;
     width: 240px; }
 .initial .initial-left p {
@@ -136,7 +154,8 @@ header {
     color: #FFFFFF;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08); }
     .initial .initial-right .video-home h2 {
-      font-size: 40px; }
+      font-size: 40px;
+      line-height: 52px; }
     .initial .initial-right .video-home .play-video {
       margin-top: 160px;
       margin-bottom: 160px; }

@@ -46,11 +46,29 @@
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Akrobat-ExtraLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 body {
 	 font-family: 'Akrobat';
+}
+
+h1 {
+	line-height: 70px;
+}
+h2 {
+	line-height: 60px;
+}
+p {
+	line-height: 24px;
+	font-weight: $font-weight-light;
 }
 
 .secundary-button {
@@ -156,11 +174,16 @@ header {
 			font-size:$font-size-display;
 			margin-top: $spacing-stack-xxxl;
 			margin-bottom: $spacing-stack-xxs;
+			
+
+			.thin {
+				font-weight: $font-weight-light;
+			}
 
 			&:after {
 			    content: '';
 			    border-bottom: solid 30px #CDDB00;
-			    margin-top: -45px;
+			    margin-top: -30px;
 			    float: left;
 			    width: 240px;
 			}
@@ -168,6 +191,7 @@ header {
 		p {
 			font-size: $font-size-sm;
 			margin-bottom: $spacing-stack-xxs;
+
 		}
 
 		button {
@@ -197,6 +221,7 @@ header {
 
 			h2 {
 				font-size: $font-size-x;
+				line-height: 52px;
 				
 			}
 
