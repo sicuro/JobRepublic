@@ -377,3 +377,67 @@ footer {
 		}
 	}
 }
+
+
+.about-us {
+
+	background:$primary-color-01;
+
+	.about-us-lettering {
+		h1 {
+			font-size:$font-size-display;
+			margin-top: $spacing-stack-xxxl;
+			margin-bottom: $spacing-stack-xl;
+
+			&:before {
+		    content: '';
+		    position: absolute;
+		    height: 150px;
+		    width: 80%;
+		    background: url(../images/dots-3.svg);
+		    margin-top: $spacing-stack-xxl;
+			}
+		}
+	}
+
+	.quick-menu {
+
+		margin-top: 216px;
+
+		.first-item {
+			background: $primary-color-02;
+			padding: $spacing-inline-xxxs;
+			color: $primary-color-01;
+		}
+
+		.itens-menu {
+			background: $securandary-color-01;
+		}
+
+		ul {
+			list-style-type: none;
+   			
+			margin-bottom: 0;
+			padding: $spacing-inline-xxxs $spacing-inline-xxxs $spacing-inline-xxxs 0;
+			background:$securandary-color-01;
+
+			.first-item {
+				background: $primary-color-02;
+				padding: $spacing-inline-xxxs;
+				color: $securandary-color-01;
+			}
+
+			.menu-itens {
+				padding-right:$spacing-inline-xxs;
+				padding-left:$spacing-inline-xxs;
+			}
+
+			li {
+				display: inline;
+				font-size: $font-size-xs;
+
+
+			}
+		}
+	}
+}

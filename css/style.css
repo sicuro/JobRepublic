@@ -251,4 +251,41 @@ footer {
     border: 0px;
     border-radius: 0px; }
 
+.about-us {
+  background: #CDDB00; }
+  .about-us .about-us-lettering h1 {
+    font-size: 80px;
+    margin-top: 120px;
+    margin-bottom: 64px; }
+    .about-us .about-us-lettering h1:before {
+      content: '';
+      position: absolute;
+      height: 150px;
+      width: 80%;
+      background: url(../images/dots-3.svg);
+      margin-top: 80px; }
+  .about-us .quick-menu {
+    margin-top: 216px; }
+    .about-us .quick-menu .first-item {
+      background: #27272A;
+      padding: 16px;
+      color: #CDDB00; }
+    .about-us .quick-menu .itens-menu {
+      background: #FFFFFF; }
+    .about-us .quick-menu ul {
+      list-style-type: none;
+      margin-bottom: 0;
+      padding: 16px 16px 16px 0;
+      background: #FFFFFF; }
+      .about-us .quick-menu ul .first-item {
+        background: #27272A;
+        padding: 16px;
+        color: #FFFFFF; }
+      .about-us .quick-menu ul .menu-itens {
+        padding-right: 24px;
+        padding-left: 24px; }
+      .about-us .quick-menu ul li {
+        display: inline;
+        font-size: 16px; }
+
 /*# sourceMappingURL=style.css.map */
