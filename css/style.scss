@@ -143,6 +143,17 @@ header {
 				display: inline;
 				padding-left: $spacing-inline-md;
 				font-size: $font-size-xs;
+				a {
+					color: $primary-color-02;
+
+					&:hover {
+						text-decoration: none;
+						opacity: 0.6;
+						border-bottom: solid $border-width-thin $primary-color-02;
+						padding-bottom:$spacing-inset-nano;
+					}
+
+				}
 			}
 		}
 		.apply-button {
