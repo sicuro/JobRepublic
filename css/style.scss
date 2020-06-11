@@ -11,6 +11,11 @@
 @import "globals/spacing-squish/spacing-squish.scss";
 @import "globals/spacing-stack/spacing-stack.scss";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
     font-family: 'Akrobat';
     src: url('../fonts/Akrobat-Regular.woff2') format('woff2'),
@@ -437,6 +442,254 @@ footer {
 				font-size: $font-size-xs;
 
 
+			}
+		}
+	}
+}
+
+.about-us-values {
+
+		margin-top: $spacing-stack-xxxl;
+		margin-bottom: $spacing-stack-xl;
+
+	.values-itens-title {
+
+		margin-bottom: $spacing-stack-xl;
+
+		 h2 {
+
+
+ 			&:after {
+			    content: '';
+			    border-bottom: solid $border-width-thick $primary-color-01;
+			    margin-top: 25px;
+			    float: left;
+			    width: 40px;
+			    margin-right: $spacing-inline-xxxs;
+			}
+		 }
+	}
+
+	.values-itens-content {
+
+		h3.teamwork {
+
+			padding-top: $spacing-stack-xxxs;
+			font-size: $font-size-md;
+			font-weight: $font-weight-Medium;
+
+			&:after {
+	 		    content: '';
+			    border-bottom: solid 16px $primary-color-01;
+			    margin-top: 15px;
+			    float: left;
+			    position: absolute;
+			    width: 100px;
+			    left: $spacing-inline-xxxs;
+			    z-index: -1;
+			}
+		}
+		h3.inspiring {
+
+			padding-top: $spacing-stack-xxxs;
+			font-size: $font-size-md;
+			font-weight: $font-weight-Medium;			
+
+			&:after {
+	 		    content: '';
+			    border-bottom: solid 16px $primary-color-01;
+			    margin-top: 15px;
+			    float: left;
+			    position: absolute;
+			    width: 197px;
+			    left: $spacing-inline-xxxs;
+			    z-index: -1;
+			}
+		}		
+		h3.social-contribution {
+			padding-top: $spacing-stack-xxxs;
+			font-size: $font-size-md;
+			font-weight: $font-weight-Medium;
+			&:after {
+	 		    content: '';
+			    border-bottom: solid 16px $primary-color-01;
+			    margin-top: 15px;
+			    float: left;
+			    position: absolute;
+			    width: 192px;
+			    left: $spacing-inline-xxxs;
+			    z-index: -1;
+			}
+		}		
+		h3.accessibility {
+			padding-top: $spacing-stack-xxxs;
+			font-size: $font-size-md;
+			font-weight: $font-weight-Medium;
+			&:after {
+	 		    content: '';
+			    border-bottom: solid 16px $primary-color-01;
+			    margin-top: 15px;
+			    float: left;
+			    position: absolute;
+			    width: 123px;
+			    left: $spacing-inline-xxxs;
+			    z-index: -1;
+			}
+		}		
+		h3.innovation {
+			padding-top: $spacing-stack-xxxs;
+			font-size: $font-size-md;
+			font-weight: $font-weight-Medium;
+			&:after {
+	 		    content: '';
+			    border-bottom: solid 16px $primary-color-01;
+			    margin-top: 15px;
+			    float: left;
+			    position: absolute;
+			    width: 102px;
+			    left: $spacing-inline-xxxs;
+			    z-index: -1;
+			}
+		}
+		h3.opportunities {
+			padding-top: $spacing-stack-xxxs;
+			font-size: $font-size-md;
+			font-weight: $font-weight-Medium;
+			&:after {
+	 		    content: '';
+			    border-bottom: solid 16px $primary-color-01;
+			    margin-top: 15px;
+			    float: left;
+			    position: absolute;
+			    width: 224px;
+			    left: $spacing-inline-xxxs;
+			    z-index: -1;
+			}
+		}
+
+		hr {
+			  border-top:$border-width-hairline dotted $primary-color-01;
+			  margin-bottom: $spacing-stack-xxs;
+			  margin-top: $spacing-stack-xxs;
+		}
+		
+	}
+}
+
+.about-us-team {
+	.team-itens-title {
+
+		margin-bottom: $spacing-stack-xl;
+
+		 h2 {
+
+
+ 			&:after {
+			    content: '';
+			    border-bottom: solid $border-width-thick $primary-color-01;
+			    margin-top: 25px;
+			    float: left;
+			    width: 40px;
+			    margin-right: $spacing-inline-xxxs;
+			}
+		 }
+	}
+
+	.collab {
+
+		.card-collab {
+			box-shadow: $shadow--level2;
+			background:$securandary-color-01;
+			padding:$spacing-inset-none;
+			margin-bottom: $spacing-stack-xs;
+			min-height: 325px;
+
+			.collab-1-foto {
+				height:$spacing-stack-huge;
+				background:$primary-color-02;
+			}
+			.collab-content {
+				padding:$spacing-inset-md;
+
+				h4 {
+					font-size: $font-size-sm;
+					font-weight: $font-weight-Medium;
+					color: $primary-color-01;
+				}
+			}
+		}
+	}
+}
+
+.embassies {
+
+	margin-top: $spacing-stack-xxxl;
+	margin-bottom: $spacing-stack-xl;
+
+	.embassies-itens-title {
+
+		margin-bottom: $spacing-stack-xl;
+
+		 h2 {
+
+
+ 			&:after {
+			    content: '';
+			    border-bottom: solid $border-width-thick $primary-color-01;
+			    margin-top: 25px;
+			    float: left;
+			    width: 40px;
+			    margin-right: $spacing-inline-xxxs;
+			}
+		 }
+	}
+
+	.embassies-itens-content {
+		.menu-embassies {
+			ul {
+				list-style-type: none;
+				margin: $spacing-inset-none;
+				padding: $spacing-inset-none;
+
+				li {
+					display: inline;
+					padding-right: $spacing-inline-xxs;
+					font-size: $font-size-sm;
+					font-weight: $font-weight-Medium;
+				}
+			}
+		}
+
+		.menu-bases {
+
+			ol {
+				list-style-type: none;
+				margin: $spacing-inset-none;
+				padding: $spacing-inset-none;
+				margin-top: $spacing-stack-md;
+				
+				li {
+					display: inline;
+					padding-right: $spacing-inline-xxs;
+					font-size: $font-size-sm;
+					font-weight: $font-weight-Medium;
+					}
+
+				ul {
+
+					list-style-type: none;
+					margin-top: $spacing-stack-xxxs;
+					padding: $spacing-inset-none;
+					
+
+					li {
+						font-size: $font-size-xs;
+						font-weight: $font-weight-light;
+						width: 100%;
+						float: left;
+					}
+		
+				}
 			}
 		}
 	}

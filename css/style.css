@@ -13,6 +13,10 @@
 /* Spacing Inset */
 /* Spacing Squish */
 /* Spacing Stack */
+* {
+  margin: 0;
+  padding: 0; }
+
 @font-face {
   font-family: 'Akrobat';
   src: url("../fonts/Akrobat-Regular.woff2") format("woff2"), url("../fonts/Akrobat-Regular.woff") format("woff");
@@ -287,5 +291,166 @@ footer {
       .about-us .quick-menu ul li {
         display: inline;
         font-size: 16px; }
+
+.about-us-values {
+  margin-top: 120px;
+  margin-bottom: 64px; }
+  .about-us-values .values-itens-title {
+    margin-bottom: 64px; }
+    .about-us-values .values-itens-title h2:after {
+      content: '';
+      border-bottom: solid 4px #CDDB00;
+      margin-top: 25px;
+      float: left;
+      width: 40px;
+      margin-right: 16px; }
+  .about-us-values .values-itens-content h3.teamwork {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 500; }
+    .about-us-values .values-itens-content h3.teamwork:after {
+      content: '';
+      border-bottom: solid 16px #CDDB00;
+      margin-top: 15px;
+      float: left;
+      position: absolute;
+      width: 100px;
+      left: 16px;
+      z-index: -1; }
+  .about-us-values .values-itens-content h3.inspiring {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 500; }
+    .about-us-values .values-itens-content h3.inspiring:after {
+      content: '';
+      border-bottom: solid 16px #CDDB00;
+      margin-top: 15px;
+      float: left;
+      position: absolute;
+      width: 197px;
+      left: 16px;
+      z-index: -1; }
+  .about-us-values .values-itens-content h3.social-contribution {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 500; }
+    .about-us-values .values-itens-content h3.social-contribution:after {
+      content: '';
+      border-bottom: solid 16px #CDDB00;
+      margin-top: 15px;
+      float: left;
+      position: absolute;
+      width: 192px;
+      left: 16px;
+      z-index: -1; }
+  .about-us-values .values-itens-content h3.accessibility {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 500; }
+    .about-us-values .values-itens-content h3.accessibility:after {
+      content: '';
+      border-bottom: solid 16px #CDDB00;
+      margin-top: 15px;
+      float: left;
+      position: absolute;
+      width: 123px;
+      left: 16px;
+      z-index: -1; }
+  .about-us-values .values-itens-content h3.innovation {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 500; }
+    .about-us-values .values-itens-content h3.innovation:after {
+      content: '';
+      border-bottom: solid 16px #CDDB00;
+      margin-top: 15px;
+      float: left;
+      position: absolute;
+      width: 102px;
+      left: 16px;
+      z-index: -1; }
+  .about-us-values .values-itens-content h3.opportunities {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 500; }
+    .about-us-values .values-itens-content h3.opportunities:after {
+      content: '';
+      border-bottom: solid 16px #CDDB00;
+      margin-top: 15px;
+      float: left;
+      position: absolute;
+      width: 224px;
+      left: 16px;
+      z-index: -1; }
+  .about-us-values .values-itens-content hr {
+    border-top: 1px dotted #CDDB00;
+    margin-bottom: 24px;
+    margin-top: 24px; }
+
+.about-us-team .team-itens-title {
+  margin-bottom: 64px; }
+  .about-us-team .team-itens-title h2:after {
+    content: '';
+    border-bottom: solid 4px #CDDB00;
+    margin-top: 25px;
+    float: left;
+    width: 40px;
+    margin-right: 16px; }
+.about-us-team .collab .card-collab {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  background: #FFFFFF;
+  padding: 0px;
+  margin-bottom: 32px;
+  min-height: 325px; }
+  .about-us-team .collab .card-collab .collab-1-foto {
+    height: 160px;
+    background: #27272A; }
+  .about-us-team .collab .card-collab .collab-content {
+    padding: 32px; }
+    .about-us-team .collab .card-collab .collab-content h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #CDDB00; }
+
+.embassies {
+  margin-top: 120px;
+  margin-bottom: 64px; }
+  .embassies .embassies-itens-title {
+    margin-bottom: 64px; }
+    .embassies .embassies-itens-title h2:after {
+      content: '';
+      border-bottom: solid 4px #CDDB00;
+      margin-top: 25px;
+      float: left;
+      width: 40px;
+      margin-right: 16px; }
+  .embassies .embassies-itens-content .menu-embassies ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    .embassies .embassies-itens-content .menu-embassies ul li {
+      display: inline;
+      padding-right: 24px;
+      font-size: 20px;
+      font-weight: 500; }
+  .embassies .embassies-itens-content .menu-bases ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 48px; }
+    .embassies .embassies-itens-content .menu-bases ol li {
+      display: inline;
+      padding-right: 24px;
+      font-size: 20px;
+      font-weight: 500; }
+    .embassies .embassies-itens-content .menu-bases ol ul {
+      list-style-type: none;
+      margin-top: 16px;
+      padding: 0px; }
+      .embassies .embassies-itens-content .menu-bases ol ul li {
+        font-size: 16px;
+        font-weight: 100;
+        width: 100%;
+        float: left; }
 
 /*# sourceMappingURL=style.css.map */
