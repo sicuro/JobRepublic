@@ -735,12 +735,13 @@ footer {
 			font-size: $font-size-xxl;
 			color: $securandary-color-01;
 			text-transform: uppercase;
+			padding-top: $spacing-stack-nano;
 			}
 	}
 	.text-beneffits {
 		color: $securandary-color-01;
 		font-size: $font-size-xs;
-		padding-top: $spacing-stack-quarck;
+		
 	}
 }
 
@@ -799,5 +800,96 @@ footer {
 			padding-left:$spacing-inline-xxxs;
 
 		}
+	}
+}
+
+.services-positions {
+	
+	.services-itens-title {
+
+		margin-top: $spacing-stack-xxxl;
+		margin-bottom: $spacing-stack-lg;
+
+		 h2 {
+
+
+ 			&:after {
+			    content: '';
+			    border-bottom: solid $border-width-thick $primary-color-01;
+			    margin-top: 25px;
+			    float: left;
+			    width: 40px;
+			    margin-right: $spacing-inline-xxxs;
+			}
+		 }
+	}
+
+	.services-positions-menu {
+		.accordion {
+			border-radius:0;
+			.card {
+				border-radius:0;
+				border:none;
+				.card-header {
+					border-radius:0;
+					background:rgba(176, 179, 178, 0.4);
+					color: $securandary-color-01;
+    				border-bottom: solid $border-width-thin $securandary-color-01;
+    				&:hover {
+    					background:rgba(176, 179, 178, 1);
+    				}
+
+					h2 {
+						button {
+							border-radius:0;
+							background:rgba(176, 179, 178, 0);
+							color: $primary-color-02;
+							font-size: $font-size-md;
+							text-decoration: none;
+							margin: 0;
+							padding:0;
+
+								.seta-cinza {
+									float: right;
+								}
+						}
+					}
+
+
+
+				}
+
+				.card-body {
+
+					border-left: solid $border-width-hairline rgba(176, 179, 178, 0.4);
+					border-right: solid $border-width-hairline rgba(176, 179, 178, 0.4);
+					border-bottom: solid $border-width-hairline rgba(176, 179, 178, 0.4);
+					.positions-show {
+
+						hr {
+						  border-top:$border-width-hairline dotted $primary-color-01;
+						  margin-bottom: $spacing-stack-xxs;
+						  margin-top: $spacing-stack-xxs;
+						}
+
+						h2 {
+							font-size: $font-size-sm;
+						}
+
+						button {
+							margin-top: $spacing-stack-xxxs;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.no-position {
+
+		margin-top: $spacing-stack-xs;
+			padding:$spacing-inset-md;
+			box-shadow: $shadow--level2;
+			background:$securandary-color-01;
 	}
 }
