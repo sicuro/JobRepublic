@@ -51,10 +51,11 @@ body {
   font-family: 'Akrobat'; }
 
 h1 {
-  line-height: 70px; }
+  line-height: 70px;
+  text-transform: uppercase; }
 
 h2 {
-  line-height: 60px; }
+  line-height: 40px; }
 
 p {
   line-height: 24px;
@@ -459,5 +460,66 @@ footer {
         font-weight: 100;
         width: 100%;
         float: left; }
+
+.services-header {
+  background: url("../images/bg-cruises.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .services-header .services-header-lettering h1 {
+    font-size: 80px;
+    margin-top: 360px;
+    margin-bottom: 64px;
+    color: #FFFFFF;
+    text-transform: uppercase; }
+
+.services-beneffits {
+  background: #27272A;
+  padding-top: 48px;
+  padding-bottom: 240px; }
+  .services-beneffits .title-beneffits h2 {
+    font-size: 56px;
+    color: #FFFFFF;
+    text-transform: uppercase; }
+  .services-beneffits .text-beneffits {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-top: 4px; }
+
+.services-beneffits-cards {
+  margin-top: -160px; }
+  .services-beneffits-cards .beneffits-cards {
+    margin-bottom: 24px; }
+    .services-beneffits-cards .beneffits-cards .beneffits-pillars {
+      padding: 32px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+      background: #FFFFFF; }
+      .services-beneffits-cards .beneffits-cards .beneffits-pillars h2 {
+        font-size: 32px;
+        margin-bottom: 24px; }
+      .services-beneffits-cards .beneffits-cards .beneffits-pillars p {
+        font-size: 16px;
+        margin-bottom: 32px; }
+      .services-beneffits-cards .beneffits-cards .beneffits-pillars img {
+        margin-top: 32px; }
+    .services-beneffits-cards .beneffits-cards .beneffits-pillars-grey {
+      padding: 32px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+      background: #B0B3B2; }
+      .services-beneffits-cards .beneffits-cards .beneffits-pillars-grey h2 {
+        font-size: 32px;
+        margin-bottom: 24px; }
+      .services-beneffits-cards .beneffits-cards .beneffits-pillars-grey p {
+        font-size: 16px;
+        margin-bottom: 32px; }
+      .services-beneffits-cards .beneffits-cards .beneffits-pillars-grey img {
+        margin-top: 32px; }
+  .services-beneffits-cards .mensage {
+    border-left: 8px solid #27272A;
+    margin-top: 24px; }
+    .services-beneffits-cards .mensage p {
+      font-size: 16px;
+      padding-left: 16px; }
 
 /*# sourceMappingURL=style.css.map */

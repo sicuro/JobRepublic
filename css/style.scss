@@ -67,9 +67,10 @@ body {
 
 h1 {
 	line-height: 70px;
+	text-transform: uppercase;
 }
 h2 {
-	line-height: 60px;
+    line-height: 40px;	
 }
 p {
 	line-height: 24px;
@@ -702,6 +703,101 @@ footer {
 		
 				}
 			}
+		}
+	}
+}
+
+.services-header {
+	background: url("../images/bg-cruises.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	.services-header-lettering {
+		h1 {
+			font-size:$font-size-display;
+			margin-top: $spacing-stack-xxxl*3;
+			margin-bottom: $spacing-stack-xl;
+			color: $securandary-color-01;
+			text-transform: uppercase;
+		}
+	}
+}
+.services-beneffits {
+
+	background:$primary-color-02;
+	padding-top: $spacing-stack-md;
+	padding-bottom: $spacing-stack-xxxl*2;
+
+	.title-beneffits {
+		h2 {
+			font-size: $font-size-xxl;
+			color: $securandary-color-01;
+			text-transform: uppercase;
+			}
+	}
+	.text-beneffits {
+		color: $securandary-color-01;
+		font-size: $font-size-xs;
+		padding-top: $spacing-stack-quarck;
+	}
+}
+
+.services-beneffits-cards {
+
+	margin-top: -$spacing-stack-huge;
+
+	.beneffits-cards {
+
+		margin-bottom: $spacing-stack-xxs;
+
+		.beneffits-pillars {
+			padding:$spacing-inset-md;
+			box-shadow: $shadow--level2;
+			background:$securandary-color-01;
+			
+
+			h2 {
+				font-size: $font-size-lg;
+				margin-bottom: $spacing-stack-xxs;
+			}
+			p {
+				font-size: $spacing-inset-xs;
+				margin-bottom: $spacing-stack-xs;
+			}
+			img {
+			margin-top: $spacing-stack-xs;
+			}
+		}
+		.beneffits-pillars-grey {
+			padding:$spacing-inset-md;
+			box-shadow: $shadow--level2;
+			background:$securandary-color-02;
+			
+
+			h2 {
+				font-size: $font-size-lg;
+				margin-bottom: $spacing-stack-xxs;
+			}
+			p {
+				font-size: $spacing-inset-xs;
+				margin-bottom: $spacing-stack-xs;
+			}
+			img {
+			margin-top: $spacing-stack-xs;
+			}
+		}
+	}
+	.mensage {
+
+		border-left: $border-width--heavy solid $primary-color-02;
+		margin-top: $spacing-stack-xxs;
+
+		p {
+			font-size: $font-size-xs;
+			padding-left:$spacing-inline-xxxs;
+
 		}
 	}
 }
